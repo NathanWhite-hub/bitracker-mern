@@ -11,6 +11,8 @@ Reception from both technicians and management was wonderful with only minor bug
 ## Authentication
 Authentication was something I decided to tackle early on before moving on to the meat and potatoes of the application. I chose to handle authentication via Passport JS's local strategy as I found this to be the most secure method I could implement at that moment. User passwords are hashed in the database and require at least seven characters.
 
+To read more about Passport JS's local stratgey, visit here: https://www.passportjs.org/packages/passport-local/
+
 ## Users
 
 ### Cart Tracking
